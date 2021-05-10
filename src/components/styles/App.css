@@ -1,0 +1,35 @@
+body{
+  background: #f5f3f4;
+}
+
+.page-header {
+  padding-bottom: 5px;
+  margin: 5px 0 15px;
+  border-bottom: 1px solid #919191;
+}
+
+.grid-item{
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+
+#Title-Calculator{
+  margin-top: -25px;
+}
+
+#btn-Calculate{
+  margin-top: 20px;
+}
+
+.img-styles{
+  padding: 3px;
+  background-color: white;
+  border: 1px solid #cccc;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  box-shadow: 5px 5px 5px black;
+  z-index: -10000;
+}
+
+
+/*https://www.rccc.eu/index.html*/
