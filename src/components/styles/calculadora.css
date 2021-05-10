@@ -1,0 +1,28 @@
+#header {
+    width: 100%;
+    height: 90px;
+    margin: 0px auto;
+    
+}
+
+.grid-item{
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+}
+
+#div_main{
+    width: 100%;
+    height: auto;
+    margin: 0px auto;
+    /*border: 3px solid black;
+    border-radius: 8px;
+    box-shadow: 18px 18px 0px #212529; */
+    overflow: hidden;
+}
+
+.page-header {
+    padding-bottom: 5px;
+    margin: 5px 0 15px;
+    border-bottom: 1px solid #919191;
+  }
