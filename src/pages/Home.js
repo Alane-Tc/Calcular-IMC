@@ -4,14 +4,15 @@ import ImgPeso from '../assets/img/Dieta.jpg'
 import ImgPeso2 from '../assets/img/Peso.jpg'
 import ImgCalculadora from '../assets/img/calculadora.jpg'
 import { Link } from 'react-router-dom';
+import Buttons from "../components/buttons";
 
 export default function Home() {
     return (
         <div>
             <div className="container-fluid">
-            <img src={ImgPeso} className="img-fluid" />
+                <img src={ImgPeso} className="img-fluid" />
             </div>
-            
+
             <div className="page-header"></div>
             <div className="container">
                 <div className="row">
@@ -34,9 +35,9 @@ export default function Home() {
                     <br />
 
                     <Link to="/calculadoras">
-                        <button id="btn-Calculate" type="button" className="btn btn-success">Ver Contenido</button>
+                        <Buttons id="bnt-next" className="btn btn-success" content="Ver contenido" />
                     </Link>
-
+                
                 </div>
             </div>
         </div>

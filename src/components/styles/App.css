@@ -18,10 +18,6 @@ body{
   margin-top: -25px;
 }
 
-#btn-Calculate{
-  margin-top: 20px;
-}
-
 .img-styles{
   padding: 3px;
   background-color: white;
@@ -31,5 +27,7 @@ body{
   z-index: -10000;
 }
 
-
+#bnt-next{
+  margin-top: 20px;
+}
 /*https://www.rccc.eu/index.html*/
