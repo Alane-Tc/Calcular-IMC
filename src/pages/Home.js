@@ -4,11 +4,16 @@ import ImgPeso from '../assets/img/Dieta.jpg'
 import ImgPeso2 from '../assets/img/Peso.jpg'
 import ImgCalculadora from '../assets/img/calculadora.jpg'
 import { Link } from 'react-router-dom';
+import { Helmet } from 'react-helmet'
 import Buttons from "../components/buttons";
 
+const TITLE = '¿Qué es el IMC?'
 export default function Home() {
     return (
         <div>
+            <Helmet>
+                <title>{TITLE}</title>
+            </Helmet>
             <div className="container-fluid">
                 <img src={ImgPeso} className="img-fluid" />
             </div>
@@ -37,7 +42,7 @@ export default function Home() {
                     <Link to="/calculadoras">
                         <Buttons id="bnt-next" className="btn btn-success" content="Ver contenido" />
                     </Link>
-                
+
                 </div>
             </div>
         </div>

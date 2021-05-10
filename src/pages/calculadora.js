@@ -1,14 +1,20 @@
 import React from "react";
+import { Helmet } from 'react-helmet'
 import '../components/styles/calculadora.css'
 import TablaIMC from '../assets/img/imc_tabla.jpg'
 import Buttons from "../components/buttons";
 
-const handleClick = () =>{
+const handleClick = () => {
     alert("Si jalo")
 }
+const TITLE = 'Calcular IMC'
+
 export default function Calculadora() {
     return (
         <div className="container">
+            <Helmet>
+                <title>{TITLE}</title>
+            </Helmet>
             <header id="header">
                 <h1 className="text-center">Calcular el IMC</h1>
             </header>
@@ -29,7 +35,7 @@ export default function Calculadora() {
                                 <span className="input-group-text" id="inputGroup-sizing-sm">Estatura</span>
                                 <input type="number" className="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm" />
                             </div>
-                            <Buttons id="bnt-calculate" className="btn btn-success" onClick={handleClick} content="Calcular"/> <br/>
+                            <Buttons id="bnt-calculate" className="btn btn-success" onClick={handleClick} content="Calcular" /> <br />
                             <span>Tu imc es XXXXXXX</span>
                         </div>
                     </div>
