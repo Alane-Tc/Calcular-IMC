@@ -26,9 +26,11 @@ export default function Home() {
                             width='300px' height='300px' />
                         <br />
 
-                        <h1 className="text-center">Titulo Random</h1>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent et urna tempor, egestas risus at, semper enim. Phasellus quis eros sed est tempor vulputate. Aenean sed porta neque. Sed sed eros arcu. Nunc at nibh sem. Mauris a neque id erat pretium posuere. Maecenas suscipit justo lacus, id interdum ante mattis at. Aliquam erat volutpat.
-                            Fusce sit amet commodo risus, id tempor nisi. Vivamus ac nulla mi. In suscipit faucibus urna, vel faucibus neque. Nulla pulvinar nisl velit, eget dignissim mauris viverra ac. Maecenas vestibulum, augue eu commodo vestibulum, leo velit finibus nibh, a vehicula leo arcu quis mi. Maecenas consequat, nisi nec faucibus auctor, leo massa lacinia tortor, sed varius nisi neque laoreet risus. Sed eget arcu at tortor gravida posuere eget non justo. Nullam congue tortor quis velit aliquam, varius porta risus convallis. Maecenas eu mollis magna. Sed scelerisque lorem quis mattis egestas. Quisque magna enim, vehicula nec risus quis, malesuada semper erat. Phasellus erat neque, iaculis quis nibh nec, finibus gravida lorem. Nunc ac quam purus.</p>
+                        <h1 className="text-center">¿Qué es el IMC?</h1>
+                        <p>
+                            El índice de masa corporal (IMC) es una razón matemática que asocia la masa y la talla de un individuo, ideada por el estadístico belga Adolphe Quetelet, por lo que también se conoce como índice de Quetelet.
+                            El IMC también puede calcularse a partir de tablas o gráficas que muestran el IMC en función de la masa y la altura usando líneas de contorno para distintas categorías. El IMC es un criterio ampliamente aceptado, pero no es exacto. Clasifica a las personas en infra peso, peso normal, sobrepeso y obesidad, basándose exclusivamente en la masa del individuo y su altura. No tendría en cuenta la edad, el sexo, el porcentaje de grasa corporal o la masa muscular. Incluso la categorización aún hoy es objeto de debate sobre dónde se deberían colocar esos límites.
+                        </p>
                     </div>
                 </div>
 
