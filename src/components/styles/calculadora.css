@@ -28,6 +28,13 @@
     border-bottom: 1px solid #919191;
   }
 
+  #span-results{
+    font-size: 25px;
+}
+
+.intrucciones{
+    font-size: 25px;
+}
  /*Responsive image*/
  @media (max-width: 575.98px) { 
     /*body{background: red;}*/
@@ -46,6 +53,10 @@
     #span-results{
         font-size: 20px;
     }
+
+    .intrucciones{
+        font-size: 18px;
+    }
  }
 
 @media (min-width: 576px) and (max-width: 767.98px) { 
@@ -59,6 +70,11 @@
       margin-top: 20px;
       margin-bottom: 20px;
   }
+
+  .intrucciones{
+    font-size: 18px;
+    }
+    
 }
 
  @media (min-width: 768px) and (max-width: 991.98px) { 

@@ -46,8 +46,8 @@ export default function Calculadora() {
                     <div className="page-header"></div>
                     <div className="row align-items-end">
                         <div className="col">
-                            <h2>¿Cómo usar la calculadora de IMC?</h2>
-                            <p>
+                            <h2 className="intrucciones">¿Cómo usar la calculadora de IMC?</h2>
+                            <p className="intrucciones">
                                 Paso 1. Introduce tu peso actual, en kilogramos (kgs); <br />
                                 Paso 2. Poné tu altura actual, en metros (cms); <br />
                                 Paso 3. Hacé clic calcular
