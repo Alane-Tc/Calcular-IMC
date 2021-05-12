@@ -35,12 +35,12 @@ export default function Home() {
                 <div className="page-header"></div>
 
                 <div className="grid-item">
-                    <h1 id="Title-Calculator"><b>Calculadoras</b></h1>
+                    <h1 id="Title-Calculator"><b>Calcular Tu IMC</b></h1>
                     <img src={ImgCalculadora} className="img-fluid img-styles" width='300px' height='300px' />
                     <br />
 
                     <Link to="/calculadoras">
-                        <Buttons id="bnt-next" className="btn btn-success" content="Ver contenido" />
+                        <Buttons id="bnt-next" className="btn btn-success" content="Click Aqui" />
                     </Link>
 
                 </div>
