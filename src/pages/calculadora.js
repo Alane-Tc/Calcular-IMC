@@ -8,9 +8,16 @@ const handleClick = () => {
     let peso = parseFloat(document.querySelector("#numero1").value);
     let estatura = parseFloat(document.querySelector("#numero2").value);
     let resultadoSpan = document.querySelector("#span-results");
-    let resultado = peso / (estatura) ** 2;
-    resultadoSpan.innerHTML = `Tu IMC es: ${resultado.toFixed(3)}`
+    if (isNaN(peso) || isNaN(estatura)) {
+        resultadoSpan.innerHTML = `Algo Salió Mal`
+    } else if (peso <= 0 || estatura <= 0) {
+        resultadoSpan.innerHTML = `No puedes digitar números negativos`
+    } else {
+        let resultado = peso / (estatura) ** 2;
+        resultadoSpan.innerHTML = `Tu IMC es: ${resultado.toFixed(3)}`
+    }
 }
+
 const TITLE = 'Calcular IMC'
 export default function Calculadora() {
     return (
@@ -25,7 +32,7 @@ export default function Calculadora() {
                 <div className="grid-item">
                     <div className="row align-items-center">
                         <div className="col">
-                            <img id="tabla-Imc" src={TablaIMC}/>
+                            <img id="tabla-Imc" src={TablaIMC} />
                         </div>
 
                         <div className="col">
